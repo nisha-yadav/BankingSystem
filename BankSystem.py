@@ -8,7 +8,7 @@ class Bank:
 #def __init__(self):
 
 	def BankSystem(self):
-		print("Enter your choice\n")
+		print("Enter your choice:\n")
 		print("1] Create an account in our bank\n")
 		print("2] Credit amount in your acount\n")
 		print("3] Debit amount from your account\n")

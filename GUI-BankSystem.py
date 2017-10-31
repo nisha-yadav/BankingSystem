@@ -14,7 +14,7 @@ def check_acc_nmb(num):
 	try:
 		fpin=open(num+".txt",'r')
 	except FileNotFoundError:
-		messagebox.showinfo("Error","Invalid Credentials!\nTry Again!")
+		messagebox.showinfo("Error!","Invalid Credentials!\nTry Again!")
 		return 0
 	fpin.close()
 	return 
